@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    
+    width: 100%;
+    padding: 40px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(60, 40, 189);
+}
+
+
+.navbar nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.cartitems{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.item{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+
+
+}
+.item h2{
+    font-size: 1;
+}
+.abc{
+    display: flex;
+    gap:50px
+}
+.color{
+    display: flex;
+    align-items: center;
+}
+
+.item button{
+    background-color: rgb(57, 47, 255);
+    border-radius: 15px;
+    border: 2px solid blue;
+    color: white;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+
